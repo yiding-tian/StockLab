@@ -52,14 +52,13 @@ TS_TOKEN = "a0f92a002ca5f1a6983503e5d01174e482d1bfe0e875e0706dac4c1e"
 ## ***代码结构***
 
 📂 project_stock
- ├── 📂 raw_data/                 # 存储下载的股票数据
- ├── 📂 index_data/           # 存储指数数据
- ├── 📜 config.py             # 配置文件（API Token、目录路径）
- ├── 📜 data_loader.py            # 股票数据获取模块
- ├── 📜 fetch_index_data.py      # 指数数据获取模块
- ├── 📜 plotter.py            # K 线图 & 成交量图绘制模块
- ├── 📜 utils.py              # 工具函数（数据处理、异常处理）
- ├── 📜 main.py               # 主程序入口
- ├── 📜 README.md             # 说明文档
-
- ├── 📜 failed_stocks.txt   #记录下载过程中失败的股票代码（自动生成）
+ ├── 📂 raw_data/                 # 存储下载的股票数据  
+ ├── 📂 index_data/           # 存储指数数据  
+ ├── 📜 config.py             # 配置文件（API Token、目录路径）  
+ ├── 📜 data_loader.py            # 股票数据获取模块  
+ ├── 📜 fetch_index_data.py      # 指数数据获取模块  
+ ├── 📜 plotter.py            # K 线图 & 成交量图绘制模块  
+ ├── 📜 utils.py              # 工具函数（数据处理、异常处理）  
+ ├── 📜 main.py               # 主程序入口  
+ ├── 📜 README.md             # 说明文档  
+ ├── 📜 failed_stocks.txt   #记录下载过程中失败的股票代码（自动生成）  
